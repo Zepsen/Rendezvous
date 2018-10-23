@@ -3593,11 +3593,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Rendezvous\\Server\\CloudinaryApi\\CloudinaryApi.csproj",
+      "projectUniqueName": "C:\\Projects\\Randevy\\Server\\CloudinaryApi\\CloudinaryApi.csproj",
       "projectName": "CloudinaryApi",
-      "projectPath": "C:\\Projects\\Rendezvous\\Server\\CloudinaryApi\\CloudinaryApi.csproj",
+      "projectPath": "C:\\Projects\\Randevy\\Server\\CloudinaryApi\\CloudinaryApi.csproj",
       "packagesPath": "C:\\Users\\ZepsenWork\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Rendezvous\\Server\\CloudinaryApi\\obj\\",
+      "outputPath": "C:\\Projects\\Randevy\\Server\\CloudinaryApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -4907,11 +4907,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Rendezvous\\Server\\BLL\\BLL.csproj",
+      "projectUniqueName": "C:\\Projects\\Randevy\\Server\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Projects\\Rendezvous\\Server\\BLL\\BLL.csproj",
+      "projectPath": "C:\\Projects\\Randevy\\Server\\BLL\\BLL.csproj",
       "packagesPath": "C:\\Users\\ZepsenWork\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Rendezvous\\Server\\BLL\\obj\\",
+      "outputPath": "C:\\Projects\\Randevy\\Server\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4930,8 +4930,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Projects\\Rendezvous\\Server\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Projects\\Rendezvous\\Server\\DAL\\DAL.csproj"
+            "C:\\Projects\\Randevy\\Server\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Projects\\Randevy\\Server\\DAL\\DAL.csproj"
             }
           }
         }

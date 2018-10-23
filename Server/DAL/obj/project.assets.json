@@ -4832,11 +4832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Rendezvous\\Server\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Projects\\Randevy\\Server\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Projects\\Rendezvous\\Server\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Projects\\Randevy\\Server\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\ZepsenWork\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Rendezvous\\Server\\DAL\\obj\\",
+      "outputPath": "C:\\Projects\\Randevy\\Server\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

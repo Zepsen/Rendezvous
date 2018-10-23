@@ -14803,11 +14803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Rendezvous\\Server\\WEB\\WEB.csproj",
+      "projectUniqueName": "C:\\Projects\\Randevy\\Server\\WEB\\WEB.csproj",
       "projectName": "WEB",
-      "projectPath": "C:\\Projects\\Rendezvous\\Server\\WEB\\WEB.csproj",
+      "projectPath": "C:\\Projects\\Randevy\\Server\\WEB\\WEB.csproj",
       "packagesPath": "C:\\Users\\ZepsenWork\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Rendezvous\\Server\\WEB\\obj\\",
+      "outputPath": "C:\\Projects\\Randevy\\Server\\WEB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14826,8 +14826,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Projects\\Rendezvous\\Server\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Projects\\Rendezvous\\Server\\BLL\\BLL.csproj"
+            "C:\\Projects\\Randevy\\Server\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Projects\\Randevy\\Server\\BLL\\BLL.csproj"
             }
           }
         }
