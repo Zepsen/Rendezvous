@@ -637,3 +637,13 @@ System.IO.InvalidDataException: Invocation provides 1 argument(s) but target exp
 2018-10-23 18:08:24.218 +03:00 [INF] Executed action method WEB.Controllers.NotificationsController.Post (WEB), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 2.1268000000000002ms.
 2018-10-23 18:08:24.227 +03:00 [INF] Executed action WEB.Controllers.NotificationsController.Post (WEB) in 78.6789ms
 2018-10-23 18:08:24.228 +03:00 [INF] Request finished in 217.4914ms 200 
+2018-10-23 18:11:21.323 +03:00 [INF] Request finished in 180445.4526ms 101 
+2018-10-23 18:11:22.784 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:44326/hub/negotiate  
+2018-10-23 18:11:22.784 +03:00 [INF] Policy execution successful.
+2018-10-23 18:11:22.784 +03:00 [INF] Request finished in 0.5412ms 204 
+2018-10-23 18:11:22.838 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44326/hub/negotiate text/plain;charset=UTF-8 0
+2018-10-23 18:11:22.838 +03:00 [INF] Policy execution successful.
+2018-10-23 18:11:22.839 +03:00 [INF] Request finished in 0.937ms 200 application/json
+2018-10-23 18:11:22.880 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/hub?id=S3Awf9CWkVmwlPvlcJMK5w  
+2018-10-23 18:11:22.880 +03:00 [INF] Policy execution successful.
+2018-10-23 18:11:22.905 +03:00 [INF] Completed connection handshake. Using HubProtocol 'messagepack'.
