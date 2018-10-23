@@ -1,0 +1,12 @@
+C:\Projects\VignitaProject\WEB\BLL\bin\Debug\netcoreapp2.0\BLL.deps.json
+C:\Projects\VignitaProject\WEB\BLL\bin\Debug\netcoreapp2.0\BLL.dll
+C:\Projects\VignitaProject\WEB\BLL\bin\Debug\netcoreapp2.0\BLL.pdb
+C:\Projects\VignitaProject\WEB\BLL\bin\Debug\netcoreapp2.0\DAL.dll
+C:\Projects\VignitaProject\WEB\BLL\bin\Debug\netcoreapp2.0\DAL.pdb
+C:\Projects\VignitaProject\WEB\BLL\obj\Debug\netcoreapp2.0\BLL.csprojAssemblyReference.cache
+C:\Projects\VignitaProject\WEB\BLL\obj\Debug\netcoreapp2.0\BLL.csproj.CoreCompileInputs.cache
+C:\Projects\VignitaProject\WEB\BLL\obj\Debug\netcoreapp2.0\BLL.AssemblyInfoInputs.cache
+C:\Projects\VignitaProject\WEB\BLL\obj\Debug\netcoreapp2.0\BLL.AssemblyInfo.cs
+C:\Projects\VignitaProject\WEB\BLL\obj\Debug\netcoreapp2.0\BLL.csproj.CopyComplete
+C:\Projects\VignitaProject\WEB\BLL\obj\Debug\netcoreapp2.0\BLL.dll
+C:\Projects\VignitaProject\WEB\BLL\obj\Debug\netcoreapp2.0\BLL.pdb

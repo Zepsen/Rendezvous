@@ -1,0 +1,11 @@
+C:\Projects\VignitaProject\WEB\DAL\bin\Debug\netcoreapp2.0\DAL.deps.json
+C:\Projects\VignitaProject\WEB\DAL\bin\Debug\netcoreapp2.0\DAL.runtimeconfig.json
+C:\Projects\VignitaProject\WEB\DAL\bin\Debug\netcoreapp2.0\DAL.runtimeconfig.dev.json
+C:\Projects\VignitaProject\WEB\DAL\bin\Debug\netcoreapp2.0\DAL.dll
+C:\Projects\VignitaProject\WEB\DAL\bin\Debug\netcoreapp2.0\DAL.pdb
+C:\Projects\VignitaProject\WEB\DAL\obj\Debug\netcoreapp2.0\DAL.csproj.CoreCompileInputs.cache
+C:\Projects\VignitaProject\WEB\DAL\obj\Debug\netcoreapp2.0\DAL.AssemblyInfoInputs.cache
+C:\Projects\VignitaProject\WEB\DAL\obj\Debug\netcoreapp2.0\DAL.AssemblyInfo.cs
+C:\Projects\VignitaProject\WEB\DAL\obj\Debug\netcoreapp2.0\DAL.dll
+C:\Projects\VignitaProject\WEB\DAL\obj\Debug\netcoreapp2.0\DAL.pdb
+C:\Projects\VignitaProject\WEB\DAL\obj\Debug\netcoreapp2.0\DAL.csprojAssemblyReference.cache

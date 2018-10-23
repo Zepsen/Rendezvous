@@ -1,0 +1,9 @@
+C:\Projects\VignitaProject\WEB\CloudinaryApi\bin\Debug\netcoreapp2.0\CloudinaryApi.deps.json
+C:\Projects\VignitaProject\WEB\CloudinaryApi\bin\Debug\netcoreapp2.0\CloudinaryApi.dll
+C:\Projects\VignitaProject\WEB\CloudinaryApi\bin\Debug\netcoreapp2.0\CloudinaryApi.pdb
+C:\Projects\VignitaProject\WEB\CloudinaryApi\obj\Debug\netcoreapp2.0\CloudinaryApi.csproj.CoreCompileInputs.cache
+C:\Projects\VignitaProject\WEB\CloudinaryApi\obj\Debug\netcoreapp2.0\CloudinaryApi.AssemblyInfoInputs.cache
+C:\Projects\VignitaProject\WEB\CloudinaryApi\obj\Debug\netcoreapp2.0\CloudinaryApi.AssemblyInfo.cs
+C:\Projects\VignitaProject\WEB\CloudinaryApi\obj\Debug\netcoreapp2.0\CloudinaryApi.dll
+C:\Projects\VignitaProject\WEB\CloudinaryApi\obj\Debug\netcoreapp2.0\CloudinaryApi.pdb
+C:\Projects\VignitaProject\WEB\CloudinaryApi\obj\Debug\netcoreapp2.0\CloudinaryApi.csprojAssemblyReference.cache
