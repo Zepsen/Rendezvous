@@ -617,3 +617,23 @@ System.IO.InvalidDataException: Invocation provides 1 argument(s) but target exp
 2018-10-23 17:46:36.166 +03:00 [INF] Request finished in 124823.3787ms 101 
 2018-10-23 17:46:36.561 +03:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:20382/iisintegration  0
 2018-10-23 17:46:36.561 +03:00 [INF] Request finished in 0.3384ms 202 
+2018-10-23 18:08:20.223 +03:00 [INF] User profile is available. Using 'C:\Users\ZepsenWork\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-23 18:08:20.767 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:44326/hub/negotiate  
+2018-10-23 18:08:20.802 +03:00 [INF] Policy execution successful.
+2018-10-23 18:08:20.808 +03:00 [INF] Request finished in 42.9885ms 204 
+2018-10-23 18:08:20.825 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44326/hub/negotiate text/plain;charset=UTF-8 0
+2018-10-23 18:08:20.826 +03:00 [INF] Policy execution successful.
+2018-10-23 18:08:20.868 +03:00 [INF] Request finished in 42.4845ms 200 application/json
+2018-10-23 18:08:20.877 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/hub?id=3AaIrE7XQc5fV6PJLTlLhw  
+2018-10-23 18:08:20.878 +03:00 [INF] Policy execution successful.
+2018-10-23 18:08:20.968 +03:00 [INF] Completed connection handshake. Using HubProtocol 'messagepack'.
+2018-10-23 18:08:24.003 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:44326/api/notifications/message  
+2018-10-23 18:08:24.003 +03:00 [INF] Policy execution successful.
+2018-10-23 18:08:24.003 +03:00 [INF] Request finished in 0.5701ms 204 
+2018-10-23 18:08:24.011 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44326/api/notifications/message application/json;charset=UTF-8 24
+2018-10-23 18:08:24.014 +03:00 [INF] Policy execution successful.
+2018-10-23 18:08:24.145 +03:00 [INF] Route matched with {action = "Post", controller = "Notifications"}. Executing action WEB.Controllers.NotificationsController.Post (WEB)
+2018-10-23 18:08:24.199 +03:00 [INF] Executing action method WEB.Controllers.NotificationsController.Post (WEB) with arguments (["WEB.Models.Hubs.NotificationHubModel"]) - Validation state: "Valid"
+2018-10-23 18:08:24.218 +03:00 [INF] Executed action method WEB.Controllers.NotificationsController.Post (WEB), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 2.1268000000000002ms.
+2018-10-23 18:08:24.227 +03:00 [INF] Executed action WEB.Controllers.NotificationsController.Post (WEB) in 78.6789ms
+2018-10-23 18:08:24.228 +03:00 [INF] Request finished in 217.4914ms 200 
