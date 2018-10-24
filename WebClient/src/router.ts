@@ -28,6 +28,15 @@ const router = new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/Notification.vue'),
     },
     {
+        path: '/conference',
+        name: 'conference',
+        meta: {
+          public: false,
+          role: 'User',
+      },        
+        component: () => import(/* webpackChunkName: "about" */ './views/Conference/Conference.vue'),
+      },
+    {
         path: '/login',
         name: 'login',
         meta: {

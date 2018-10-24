@@ -1,7 +1,10 @@
 <!-- Template -->
 
 <template>  
-    <v-btn @click="$router.push({path: '/notification'})">To notification</v-btn>
+    <div>
+        <v-btn @click="$router.push({path: '/notification'})">To notification</v-btn>
+        <v-btn @click="$router.push({path: '/conference'})">To conference</v-btn>
+    </div>
 </template>
 
 <script lang="ts">

@@ -33,4 +33,10 @@ export default class App extends Vue {
 
 <style lang="less">
 
+    #localTrack {        
+        video {
+            width: 250px;
+            height: 250px;
+        }
+    }
 </style>
