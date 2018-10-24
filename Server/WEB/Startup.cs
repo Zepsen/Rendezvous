@@ -69,7 +69,7 @@ namespace WEB
             app.UseResponseCompression();
             app.UseHttpsRedirection();
             app.UseCors("CorsPolicy");
-            app.UseSignalR(routes => { routes.MapHub<NotificationHub>("/hub"); });
+            app.UseSignalR(routes => { routes.MapHub<ApplicationHub>("/hub"); });
 
             app.UseMvc();
         }

@@ -1,0 +1,103 @@
+2018-10-24 12:08:09.651 +03:00 [INF] User profile is available. Using 'C:\Users\ZepsenWork\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-24 12:08:10.409 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:44326/hub/negotiate  
+2018-10-24 12:08:10.670 +03:00 [INF] Policy execution successful.
+2018-10-24 12:08:10.679 +03:00 [INF] Request finished in 271.6966ms 204 
+2018-10-24 12:08:10.778 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44326/hub/negotiate text/plain;charset=UTF-8 0
+2018-10-24 12:08:10.779 +03:00 [INF] Policy execution successful.
+2018-10-24 12:08:10.811 +03:00 [INF] Request finished in 33.1622ms 200 application/json
+2018-10-24 12:08:10.842 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/hub?id=272NM0R0QxCYFrEDkO-SWA  
+2018-10-24 12:08:10.843 +03:00 [INF] Policy execution successful.
+2018-10-24 12:08:10.997 +03:00 [INF] Completed connection handshake. Using HubProtocol 'messagepack'.
+2018-10-24 12:10:02.420 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:44326/api/notifications/message  
+2018-10-24 12:10:02.420 +03:00 [INF] Policy execution successful.
+2018-10-24 12:10:02.420 +03:00 [INF] Request finished in 0.4551ms 204 
+2018-10-24 12:10:02.426 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44326/api/notifications/message application/json;charset=UTF-8 21
+2018-10-24 12:10:02.426 +03:00 [INF] Policy execution successful.
+2018-10-24 12:10:02.881 +03:00 [INF] Route matched with {action = "Post", controller = "Notifications"}. Executing action WEB.Controllers.NotificationsController.Post (WEB)
+2018-10-24 12:10:02.941 +03:00 [INF] Executing action method WEB.Controllers.NotificationsController.Post (WEB) with arguments (["WEB.Models.Hubs.NotificationHubModel"]) - Validation state: "Valid"
+2018-10-24 12:10:02.980 +03:00 [INF] Executed action method WEB.Controllers.NotificationsController.Post (WEB), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 24.11ms.
+2018-10-24 12:10:02.988 +03:00 [INF] Executed action WEB.Controllers.NotificationsController.Post (WEB) in 103.4817ms
+2018-10-24 12:10:02.989 +03:00 [INF] Request finished in 563.1402ms 200 
+2018-10-24 12:10:07.628 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:44326/hub/negotiate  
+2018-10-24 12:10:07.629 +03:00 [INF] Policy execution successful.
+2018-10-24 12:10:07.629 +03:00 [INF] Request finished in 0.8641ms 204 
+2018-10-24 12:10:07.640 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44326/hub/negotiate text/plain;charset=UTF-8 0
+2018-10-24 12:10:07.640 +03:00 [INF] Policy execution successful.
+2018-10-24 12:10:07.641 +03:00 [INF] Request finished in 1.1137ms 200 application/json
+2018-10-24 12:10:07.649 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/hub?id=wJkDMlsRWr_Wfv8UcZs86A  
+2018-10-24 12:10:07.649 +03:00 [INF] Policy execution successful.
+2018-10-24 12:10:07.659 +03:00 [INF] Completed connection handshake. Using HubProtocol 'messagepack'.
+2018-10-24 12:10:08.824 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44326/hub/negotiate text/plain;charset=UTF-8 0
+2018-10-24 12:10:08.824 +03:00 [INF] Policy execution successful.
+2018-10-24 12:10:08.824 +03:00 [INF] Request finished in 0.4494ms 200 application/json
+2018-10-24 12:10:08.830 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/hub?id=SCO7e2v5aS8e4n5k3v0XEw  
+2018-10-24 12:10:08.831 +03:00 [INF] Policy execution successful.
+2018-10-24 12:10:08.839 +03:00 [INF] Completed connection handshake. Using HubProtocol 'messagepack'.
+2018-10-24 12:35:21.023 +03:00 [INF] User profile is available. Using 'C:\Users\ZepsenWork\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-24 12:35:21.502 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:44326/hub/negotiate  
+2018-10-24 12:35:21.502 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:44326/hub/negotiate  
+2018-10-24 12:35:21.544 +03:00 [INF] Policy execution successful.
+2018-10-24 12:35:21.544 +03:00 [INF] Policy execution successful.
+2018-10-24 12:35:21.550 +03:00 [INF] Request finished in 49.3445ms 204 
+2018-10-24 12:35:21.550 +03:00 [INF] Request finished in 49.3436ms 204 
+2018-10-24 12:35:21.566 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44326/hub/negotiate text/plain;charset=UTF-8 0
+2018-10-24 12:35:21.566 +03:00 [INF] Policy execution successful.
+2018-10-24 12:35:21.581 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44326/hub/negotiate text/plain;charset=UTF-8 0
+2018-10-24 12:35:21.582 +03:00 [INF] Policy execution successful.
+2018-10-24 12:35:21.599 +03:00 [INF] Request finished in 33.5484ms 200 application/json
+2018-10-24 12:35:21.599 +03:00 [INF] Request finished in 17.9379ms 200 application/json
+2018-10-24 12:35:21.611 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/hub?id=npt_e_XwztZuwhSLYFsuuA  
+2018-10-24 12:35:21.612 +03:00 [INF] Policy execution successful.
+2018-10-24 12:35:21.649 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/hub?id=fZCIDKlAyeE9hMtgxKJ5aA  
+2018-10-24 12:35:21.649 +03:00 [INF] Policy execution successful.
+2018-10-24 12:35:21.693 +03:00 [INF] Completed connection handshake. Using HubProtocol 'messagepack'.
+2018-10-24 12:35:21.693 +03:00 [INF] Completed connection handshake. Using HubProtocol 'messagepack'.
+2018-10-24 12:57:16.294 +03:00 [INF] Request finished in 1314683.2093ms 101 
+2018-10-24 12:57:16.296 +03:00 [INF] Request finished in 1314647.7962ms 101 
+2018-10-24 12:57:17.972 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:44326/hub/negotiate  
+2018-10-24 12:57:17.973 +03:00 [INF] Policy execution successful.
+2018-10-24 12:57:17.973 +03:00 [INF] Request finished in 1.1895ms 204 
+2018-10-24 12:57:18.020 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44326/hub/negotiate text/plain;charset=UTF-8 0
+2018-10-24 12:57:18.020 +03:00 [INF] Policy execution successful.
+2018-10-24 12:57:18.021 +03:00 [INF] Request finished in 0.8591ms 200 application/json
+2018-10-24 12:57:18.072 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/hub?id=c1LjQFGzCIIc68uV-6BarQ  
+2018-10-24 12:57:18.073 +03:00 [INF] Policy execution successful.
+2018-10-24 12:57:18.087 +03:00 [INF] Completed connection handshake. Using HubProtocol 'messagepack'.
+2018-10-24 12:59:35.540 +03:00 [INF] Request finished in 137468.4973ms 101 
+2018-10-24 12:59:37.371 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:44326/hub/negotiate  
+2018-10-24 12:59:37.372 +03:00 [INF] Policy execution successful.
+2018-10-24 12:59:37.372 +03:00 [INF] Request finished in 1.2645ms 204 
+2018-10-24 12:59:37.422 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44326/hub/negotiate text/plain;charset=UTF-8 0
+2018-10-24 12:59:37.422 +03:00 [INF] Policy execution successful.
+2018-10-24 12:59:37.422 +03:00 [INF] Request finished in 0.6818ms 200 application/json
+2018-10-24 12:59:37.473 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/hub?id=Wbn3_F_XD1hmsHGE0LBCPw  
+2018-10-24 12:59:37.475 +03:00 [INF] Policy execution successful.
+2018-10-24 12:59:37.507 +03:00 [INF] Completed connection handshake. Using HubProtocol 'messagepack'.
+2018-10-24 13:33:34.254 +03:00 [INF] Request finished in 2036780.3316ms 101 
+2018-10-24 17:11:23.305 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:44326/hub/negotiate  
+2018-10-24 17:11:23.312 +03:00 [INF] Policy execution successful.
+2018-10-24 17:11:23.313 +03:00 [INF] Request finished in 15.5491ms 204 
+2018-10-24 17:11:23.332 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:44326/hub/negotiate text/plain;charset=UTF-8 0
+2018-10-24 17:11:23.332 +03:00 [INF] Policy execution successful.
+2018-10-24 17:11:23.334 +03:00 [INF] Request finished in 2.9392ms 200 application/json
+2018-10-24 17:11:23.350 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/hub?id=7bcklFzGmDmaBvth-5zksw  
+2018-10-24 17:11:23.351 +03:00 [INF] Policy execution successful.
+2018-10-24 17:11:23.366 +03:00 [INF] Completed connection handshake. Using HubProtocol 'messagepack'.
+2018-10-24 17:42:05.516 +03:00 [INF] User profile is available. Using 'C:\Users\ZepsenWork\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-24 17:42:05.939 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/api/notifications/token?identity=zxcv  
+2018-10-24 17:42:05.976 +03:00 [INF] Policy execution successful.
+2018-10-24 17:42:06.092 +03:00 [INF] Route matched with {action = "Get", controller = "Notifications"}. Executing action WEB.Controllers.NotificationsController.Get (WEB)
+2018-10-24 17:42:06.120 +03:00 [INF] Executing action method WEB.Controllers.NotificationsController.Get (WEB) with arguments (["zxcv"]) - Validation state: "Valid"
+2018-10-24 17:42:06.185 +03:00 [INF] Executed action method WEB.Controllers.NotificationsController.Get (WEB), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 49.603500000000004ms.
+2018-10-24 17:42:06.192 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2018-10-24 17:42:06.202 +03:00 [INF] Executed action WEB.Controllers.NotificationsController.Get (WEB) in 106.7389ms
+2018-10-24 17:42:06.209 +03:00 [INF] Request finished in 271.6919ms 200 text/plain; charset=utf-8
+2018-10-24 17:43:13.414 +03:00 [INF] User profile is available. Using 'C:\Users\ZepsenWork\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-24 17:43:13.863 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/api/notifications/token?identity=asdf  
+2018-10-24 17:43:13.900 +03:00 [INF] Policy execution successful.
+2018-10-24 17:43:14.020 +03:00 [INF] Route matched with {action = "Get", controller = "Notifications"}. Executing action WEB.Controllers.NotificationsController.Get (WEB)
+2018-10-24 17:43:14.049 +03:00 [INF] Executing action method WEB.Controllers.NotificationsController.Get (WEB) with arguments (["asdf"]) - Validation state: "Valid"
+2018-10-24 17:43:14.117 +03:00 [INF] Executed action method WEB.Controllers.NotificationsController.Get (WEB), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 51.0476ms.
+2018-10-24 17:43:14.124 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-10-24 17:43:14.139 +03:00 [INF] Executed action WEB.Controllers.NotificationsController.Get (WEB) in 115.9513ms
+2018-10-24 17:43:14.147 +03:00 [INF] Request finished in 285.3884ms 200 application/json; charset=utf-8

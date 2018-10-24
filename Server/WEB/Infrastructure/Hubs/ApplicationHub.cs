@@ -4,7 +4,7 @@ using WEB.Models.Hubs;
 
 namespace WEB.Infrastructure.Hubs
 {
-    public class NotificationHub : Hub
+    public class ApplicationHub : Hub
     {
         public async Task Notification(NotificationHubModel model)
         {

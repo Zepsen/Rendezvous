@@ -16,3 +16,12 @@ C:\Projects\Rendezvous\Server\CloudinaryApi\obj\Debug\netcoreapp2.1\CloudinaryAp
 C:\Projects\Rendezvous\Server\CloudinaryApi\obj\Debug\netcoreapp2.1\CloudinaryApi.AssemblyInfo.cs
 C:\Projects\Rendezvous\Server\CloudinaryApi\obj\Debug\netcoreapp2.1\CloudinaryApi.dll
 C:\Projects\Rendezvous\Server\CloudinaryApi\obj\Debug\netcoreapp2.1\CloudinaryApi.pdb
+C:\Projects\Randevy\Server\CloudinaryApi\bin\Debug\netcoreapp2.1\CloudinaryApi.deps.json
+C:\Projects\Randevy\Server\CloudinaryApi\bin\Debug\netcoreapp2.1\CloudinaryApi.dll
+C:\Projects\Randevy\Server\CloudinaryApi\bin\Debug\netcoreapp2.1\CloudinaryApi.pdb
+C:\Projects\Randevy\Server\CloudinaryApi\obj\Debug\netcoreapp2.1\CloudinaryApi.csprojAssemblyReference.cache
+C:\Projects\Randevy\Server\CloudinaryApi\obj\Debug\netcoreapp2.1\CloudinaryApi.csproj.CoreCompileInputs.cache
+C:\Projects\Randevy\Server\CloudinaryApi\obj\Debug\netcoreapp2.1\CloudinaryApi.AssemblyInfoInputs.cache
+C:\Projects\Randevy\Server\CloudinaryApi\obj\Debug\netcoreapp2.1\CloudinaryApi.AssemblyInfo.cs
+C:\Projects\Randevy\Server\CloudinaryApi\obj\Debug\netcoreapp2.1\CloudinaryApi.dll
+C:\Projects\Randevy\Server\CloudinaryApi\obj\Debug\netcoreapp2.1\CloudinaryApi.pdb
