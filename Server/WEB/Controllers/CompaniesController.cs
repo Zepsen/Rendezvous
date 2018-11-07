@@ -11,7 +11,9 @@ using WEB.Infrastructure.Attributes;
 
 namespace WEB.Controllers
 {
-    [Route("api/[controller]")]
+    //[Route("api/[controller]")]
+    [ApiVersion("2.0")]
+    [Route("api/{version:apiVersion}/[controller]")]
     [Authorize(Roles = "User")]
     [ApiController]
     public class CompaniesController : Controller
