@@ -2,6 +2,7 @@
 using DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -48,7 +49,12 @@ namespace WEB
 
             services.AddSignalR().AddMessagePackProtocol();
             services.AddMvc();
-            
+            services.AddApiVersioning(o => {
+                o.ReportApiVersions = true;
+                o.AssumeDefaultVersionWhenUnspecified = true;
+                o.DefaultApiVersion = new ApiVersion(1, 0);
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -69,7 +75,7 @@ namespace WEB
             app.UseResponseCompression();
             app.UseHttpsRedirection();
             app.UseCors("CorsPolicy");
-            app.UseSignalR(routes => { routes.MapHub<ApplicationHub>("/hub"); });
+            //app.UseSignalR(routes => { routes.MapHub<ApplicationHub>("/hub"); });
 
             app.UseMvc();
         }

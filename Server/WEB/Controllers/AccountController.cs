@@ -8,6 +8,7 @@ using BLL.DTOs;
 using BLL.Infrastructure;
 using BLL.Interfaces;
 using DAL.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -29,8 +30,7 @@ namespace WEB.Controllers
             _service = service;
             _userManager = userManager;
         }
-
-
+        
         /// <summary>
         /// Registration
         /// </summary>

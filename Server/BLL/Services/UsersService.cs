@@ -2,8 +2,11 @@
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using BLL.DTOs;
 using BLL.Infrastructure;
+using BLL.Infrastructure.Extensions;
+using BLL.Infrastructure.Extensions.EntitiesExts;
 using BLL.Infrastructure.Filters;
 using BLL.Interfaces;
 using DAL;
@@ -21,17 +24,19 @@ namespace BLL.Services
         
         public async Task<Result<UserDto>> GetAsync(FilterBase filter)
         {
-            var entity = (await Repo.UsersRepository.GetFromCache()).ToList();
-            return new Result<UserDto>()
-            {
-                Data = _mapper.Map<List<UserDto>>(entity)
-            };
+            return await Repo.UsersRepository.GetQueryable()
+                .MaybeWhere(filter.Where)
+                .Searching(filter.Search) //mb delete, using dynamic linq where logic
+                .MaybeOrderBy(filter.OrderBy)
+                .SkipAndTake(filter)
+                .MaybeSelect(filter.Select)
+                .ProjectTo<UserDto>(_mapper.ConfigurationProvider)
+                .ToResultAsync(filter);
         }
 
         public async Task<UserDto> GetByIdAsync(int id)
         {
-            var entity = (await Repo.UsersRepository.GetFromCache()).FirstOrDefault(i => i.Id == id);
-            return _mapper.Map<UserDto>(entity);
+            return _mapper.Map<UserDto>(await Repo.UsersRepository.FindAsync(id));
         }
 
         public async Task UpdateAsync(int id, UserDto dto)

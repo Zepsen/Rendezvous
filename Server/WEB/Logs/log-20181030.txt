@@ -1,0 +1,166 @@
+2018-10-30 12:11:11.136 +02:00 [INF] User profile is available. Using 'C:\Users\ZepsenWork\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-30 12:11:13.391 +02:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:8091/  0
+2018-10-30 12:11:13.421 +02:00 [INF] Request finished in 30.6106ms 200 
+2018-10-30 12:30:23.435 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/  
+2018-10-30 12:30:24.188 +02:00 [INF] Request finished in 753.4817ms 404 
+2018-10-30 14:01:21.532 +02:00 [INF] User profile is available. Using 'C:\Users\ZepsenWork\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-30 14:01:23.686 +02:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:8091/  0
+2018-10-30 14:01:23.815 +02:00 [INF] Request finished in 126.8781ms 200 
+2018-10-30 15:03:09.634 +02:00 [INF] User profile is available. Using 'C:\Users\ZepsenWork\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-30 15:03:18.103 +02:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:8091/  0
+2018-10-30 15:03:18.123 +02:00 [INF] Request finished in 19.6031ms 200 
+2018-10-30 15:41:02.798 +02:00 [INF] User profile is available. Using 'C:\Users\ZepsenWork\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-30 15:41:06.960 +02:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:8092/  0
+2018-10-30 15:41:06.979 +02:00 [INF] Request finished in 18.8166ms 200 
+2018-10-30 15:48:54.894 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8092/api/users application/json 
+2018-10-30 15:48:55.183 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '10/18/2018 13:14:48', Current time: '10/30/2018 13:48:55'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2018-10-30 15:48:55.257 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '10/18/2018 13:14:48', Current time: '10/30/2018 13:48:55'.
+2018-10-30 15:48:55.333 +02:00 [INF] Request finished in 438.8389ms 307 
+2018-10-30 15:48:55.393 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/api/users application/json 
+2018-10-30 15:48:55.405 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '10/18/2018 13:14:48', Current time: '10/30/2018 13:48:55'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2018-10-30 15:48:55.405 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '10/18/2018 13:14:48', Current time: '10/30/2018 13:48:55'.
+2018-10-30 15:48:55.925 +02:00 [INF] Route matched with {action = "Get", controller = "Users"}. Executing action WEB.Controllers.UsersController.Get (WEB)
+2018-10-30 15:48:55.939 +02:00 [INF] Authorization failed.
+2018-10-30 15:48:55.943 +02:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2018-10-30 15:48:55.950 +02:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2018-10-30 15:48:55.959 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2018-10-30 15:48:55.964 +02:00 [INF] Executed action WEB.Controllers.UsersController.Get (WEB) in 34.912ms
+2018-10-30 15:48:55.969 +02:00 [INF] Request finished in 575.482ms 401 
+2018-10-30 15:49:10.116 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8092/api/test application/json 
+2018-10-30 15:49:10.117 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '10/18/2018 13:14:48', Current time: '10/30/2018 13:49:10'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2018-10-30 15:49:10.118 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '10/18/2018 13:14:48', Current time: '10/30/2018 13:49:10'.
+2018-10-30 15:49:10.118 +02:00 [INF] Request finished in 2.1562ms 307 
+2018-10-30 15:49:10.137 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/api/test application/json 
+2018-10-30 15:49:10.138 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '10/18/2018 13:14:48', Current time: '10/30/2018 13:49:10'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2018-10-30 15:49:10.138 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '10/18/2018 13:14:48', Current time: '10/30/2018 13:49:10'.
+2018-10-30 15:49:10.142 +02:00 [INF] Route matched with {action = "Test", controller = "Account"}. Executing action WEB.Controllers.AccountController.Test (WEB)
+2018-10-30 15:49:10.462 +02:00 [INF] Executing action method WEB.Controllers.AccountController.Test (WEB) - Validation state: "Valid"
+2018-10-30 15:49:10.469 +02:00 [INF] Executed action method WEB.Controllers.AccountController.Test (WEB), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2.6618ms.
+2018-10-30 15:49:10.474 +02:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-10-30 15:49:10.487 +02:00 [INF] Executed action WEB.Controllers.AccountController.Test (WEB) in 345.0115ms
+2018-10-30 15:49:10.489 +02:00 [INF] Request finished in 352.3434ms 200 application/json; charset=utf-8
+2018-10-30 16:08:48.285 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:8092/api/account/login application/json 71
+2018-10-30 16:08:48.286 +02:00 [INF] Request finished in 1.4767ms 307 
+2018-10-30 16:08:48.300 +02:00 [INF] Connection id "0HLHUDLC0844A", Request id "0HLHUDLC0844A:00000001": the application completed without reading the entire request body.
+2018-10-30 16:08:48.322 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:44326/api/account/login application/json 71
+2018-10-30 16:08:48.329 +02:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action WEB.Controllers.AccountController.Login (WEB)
+2018-10-30 16:08:48.432 +02:00 [INF] Executing action method WEB.Controllers.AccountController.Login (WEB) with arguments (["WEB.Models.LoginModel"]) - Validation state: "Valid"
+2018-10-30 16:08:57.671 +02:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-10-30 16:08:58.230 +02:00 [INF] Executed DbCommand (76ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+2018-10-30 16:08:58.525 +02:00 [INF] Executed DbCommand (86ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2018-10-30 16:08:58.547 +02:00 [INF] Executed action method WEB.Controllers.AccountController.Login (WEB), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 10109.6348ms.
+2018-10-30 16:08:58.555 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType2`3[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IList`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-10-30 16:08:58.566 +02:00 [INF] Executed action WEB.Controllers.AccountController.Login (WEB) in 10236.840400000001ms
+2018-10-30 16:08:58.576 +02:00 [INF] Request finished in 10253.9219ms 200 application/json; charset=utf-8
+2018-10-30 16:31:58.156 +02:00 [INF] User profile is available. Using 'C:\Users\ZepsenWork\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-30 16:31:58.510 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:8092/api/test application/json 71
+2018-10-30 16:31:58.550 +02:00 [INF] Request finished in 41.7471ms 307 
+2018-10-30 16:31:58.565 +02:00 [INF] Connection id "0HLHUEHPEFB49", Request id "0HLHUEHPEFB49:00000001": the application completed without reading the entire request body.
+2018-10-30 16:31:58.568 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:44326/api/test application/json 71
+2018-10-30 16:31:58.671 +02:00 [INF] Request finished in 103.5976ms 404 
+2018-10-30 16:31:58.672 +02:00 [INF] Connection id "0HLHUEHPEFB49", Request id "0HLHUEHPEFB49:00000002": the application completed without reading the entire request body.
+2018-10-30 16:32:01.499 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:8092/api/test application/json 71
+2018-10-30 16:32:01.499 +02:00 [INF] Request finished in 0.5612ms 307 
+2018-10-30 16:32:01.499 +02:00 [INF] Connection id "0HLHUEHPEFB49", Request id "0HLHUEHPEFB49:00000003": the application completed without reading the entire request body.
+2018-10-30 16:32:01.522 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:44326/api/test application/json 71
+2018-10-30 16:32:01.523 +02:00 [INF] Request finished in 0.9201ms 404 
+2018-10-30 16:32:01.524 +02:00 [INF] Connection id "0HLHUEHPEFB49", Request id "0HLHUEHPEFB49:00000004": the application completed without reading the entire request body.
+2018-10-30 16:32:04.099 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:8092/api/test application/json 71
+2018-10-30 16:32:04.099 +02:00 [INF] Request finished in 0.7145ms 307 
+2018-10-30 16:32:04.100 +02:00 [INF] Connection id "0HLHUEHPEFB49", Request id "0HLHUEHPEFB49:00000005": the application completed without reading the entire request body.
+2018-10-30 16:32:04.108 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:44326/api/test application/json 71
+2018-10-30 16:32:04.108 +02:00 [INF] Request finished in 0.3709ms 404 
+2018-10-30 16:32:04.108 +02:00 [INF] Connection id "0HLHUEHPEFB49", Request id "0HLHUEHPEFB49:00000006": the application completed without reading the entire request body.
+2018-10-30 16:32:11.206 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8092/api/test application/json 
+2018-10-30 16:32:11.207 +02:00 [INF] Request finished in 0.6086ms 307 
+2018-10-30 16:32:11.221 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/api/test application/json 
+2018-10-30 16:32:11.234 +02:00 [INF] Route matched with {action = "Test", controller = "Account"}. Executing action WEB.Controllers.AccountController.Test (WEB)
+2018-10-30 16:32:11.330 +02:00 [INF] Executing action method WEB.Controllers.AccountController.Test (WEB) - Validation state: "Valid"
+2018-10-30 16:32:11.341 +02:00 [INF] Executed action method WEB.Controllers.AccountController.Test (WEB), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.6314000000000002ms.
+2018-10-30 16:32:11.348 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-10-30 16:32:11.387 +02:00 [INF] Executed action WEB.Controllers.AccountController.Test (WEB) in 149.09220000000002ms
+2018-10-30 16:32:11.388 +02:00 [INF] Request finished in 166.7628ms 200 application/json; charset=utf-8
+2018-10-30 16:51:06.104 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8092/api/test application/json 
+2018-10-30 16:51:06.106 +02:00 [INF] Request finished in 4.2638ms 307 
+2018-10-30 16:51:06.127 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/api/test application/json 
+2018-10-30 16:51:06.128 +02:00 [INF] Route matched with {action = "Test", controller = "Account"}. Executing action WEB.Controllers.AccountController.Test (WEB)
+2018-10-30 16:51:06.129 +02:00 [INF] Executing action method WEB.Controllers.AccountController.Test (WEB) - Validation state: "Valid"
+2018-10-30 16:51:06.130 +02:00 [INF] Executed action method WEB.Controllers.AccountController.Test (WEB), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0434ms.
+2018-10-30 16:51:06.130 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-10-30 16:51:06.131 +02:00 [INF] Executed action WEB.Controllers.AccountController.Test (WEB) in 2.9589000000000003ms
+2018-10-30 16:51:06.131 +02:00 [INF] Request finished in 4.0212ms 200 application/json; charset=utf-8
+2018-10-30 16:51:16.645 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8092/  
+2018-10-30 16:51:16.646 +02:00 [INF] Request finished in 1.0114ms 307 
+2018-10-30 16:51:16.719 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/  
+2018-10-30 16:51:16.726 +02:00 [INF] Request finished in 7.2267ms 404 
+2018-10-30 16:51:28.583 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/api/test  
+2018-10-30 16:51:28.583 +02:00 [INF] Route matched with {action = "Test", controller = "Account"}. Executing action WEB.Controllers.AccountController.Test (WEB)
+2018-10-30 16:51:28.586 +02:00 [INF] Executing action method WEB.Controllers.AccountController.Test (WEB) - Validation state: "Valid"
+2018-10-30 16:51:28.587 +02:00 [INF] Executed action method WEB.Controllers.AccountController.Test (WEB), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0081ms.
+2018-10-30 16:51:28.587 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-10-30 16:51:28.587 +02:00 [INF] Executed action WEB.Controllers.AccountController.Test (WEB) in 1.6765ms
+2018-10-30 16:51:28.587 +02:00 [INF] Request finished in 4.8707ms 200 application/json; charset=utf-8
+2018-10-30 16:51:28.942 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/favicon.ico  
+2018-10-30 16:51:28.943 +02:00 [INF] Request finished in 0.4191ms 404 
+2018-10-30 17:01:33.403 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8092/  
+2018-10-30 17:01:33.403 +02:00 [INF] Request finished in 0.6524ms 307 
+2018-10-30 17:01:33.455 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/  
+2018-10-30 17:01:33.456 +02:00 [INF] Request finished in 0.4856ms 404 
+2018-10-30 17:01:49.642 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/api/test  
+2018-10-30 17:01:49.644 +02:00 [INF] Route matched with {action = "Test", controller = "Account"}. Executing action WEB.Controllers.AccountController.Test (WEB)
+2018-10-30 17:01:49.645 +02:00 [INF] Executing action method WEB.Controllers.AccountController.Test (WEB) - Validation state: "Valid"
+2018-10-30 17:01:49.645 +02:00 [INF] Executed action method WEB.Controllers.AccountController.Test (WEB), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.012ms.
+2018-10-30 17:01:49.645 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-10-30 17:01:49.646 +02:00 [INF] Executed action WEB.Controllers.AccountController.Test (WEB) in 1.8515000000000001ms
+2018-10-30 17:01:49.646 +02:00 [INF] Request finished in 3.875ms 200 application/json; charset=utf-8
+2018-10-30 17:02:02.861 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8092/api/test  
+2018-10-30 17:02:02.862 +02:00 [INF] Request finished in 0.7744ms 307 
+2018-10-30 17:02:02.872 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/api/test  
+2018-10-30 17:02:02.872 +02:00 [INF] Route matched with {action = "Test", controller = "Account"}. Executing action WEB.Controllers.AccountController.Test (WEB)
+2018-10-30 17:02:02.873 +02:00 [INF] Executing action method WEB.Controllers.AccountController.Test (WEB) - Validation state: "Valid"
+2018-10-30 17:02:02.873 +02:00 [INF] Executed action method WEB.Controllers.AccountController.Test (WEB), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0064ms.
+2018-10-30 17:02:02.873 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-10-30 17:02:02.873 +02:00 [INF] Executed action WEB.Controllers.AccountController.Test (WEB) in 0.6823ms
+2018-10-30 17:02:02.873 +02:00 [INF] Request finished in 1.3232ms 200 application/json; charset=utf-8
+2018-10-30 17:04:35.318 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/api/testlgv30 developer mode  
+2018-10-30 17:04:35.318 +02:00 [INF] Request finished in 0.9481ms 404 
+2018-10-30 17:15:13.457 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8092/api/test  
+2018-10-30 17:15:13.458 +02:00 [INF] Request finished in 0.5213ms 307 
+2018-10-30 17:15:13.469 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:44326/api/test  
+2018-10-30 17:15:13.469 +02:00 [INF] Route matched with {action = "Test", controller = "Account"}. Executing action WEB.Controllers.AccountController.Test (WEB)
+2018-10-30 17:15:13.470 +02:00 [INF] Executing action method WEB.Controllers.AccountController.Test (WEB) - Validation state: "Valid"
+2018-10-30 17:15:13.470 +02:00 [INF] Executed action method WEB.Controllers.AccountController.Test (WEB), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.01ms.
+2018-10-30 17:15:13.470 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-10-30 17:15:13.470 +02:00 [INF] Executed action WEB.Controllers.AccountController.Test (WEB) in 0.8354ms
+2018-10-30 17:15:13.470 +02:00 [INF] Request finished in 1.6903ms 200 application/json; charset=utf-8

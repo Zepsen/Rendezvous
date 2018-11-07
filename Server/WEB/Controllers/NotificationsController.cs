@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using BLL.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using Twilio.Jwt.AccessToken;
@@ -36,11 +34,11 @@ namespace WEB.Controllers
             const string twilioApiKey = "SK7ba2eaaf7a8ce751e4471ec7c290be69";
             const string twilioApiSecret = "iVL4kfIKnWcX2Q3ivhjSfoUbXDf4S3rO";
 
-//            // These are specific to Chat
-//            const string serviceSid = "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
-//            const string identity = "user@example.com";
+            //            // These are specific to Chat
+            //            const string serviceSid = "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+            //            const string identity = "user@example.com";
 
-            // Create an Chat grant for this token
+                        // Create an Chat grant for this token
 
             var grant = new VideoGrant();
             var grants = new HashSet<IGrant>
